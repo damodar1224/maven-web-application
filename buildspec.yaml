@@ -13,4 +13,4 @@ phases:
       - echo "[INFO] Building Java application"
       - mvn clean install  
 artifacts:
-  files: '**/*'
+  files: 's3://demo-project-bucket-1224/'
